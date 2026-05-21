@@ -19,3 +19,8 @@ services:
       dockerfile: Dockerfile_distroless_custom_jre
     ports:
       - "8083:8080"
+
+  distroless-custom-jre-buildpack:
+    image: distroless-jvm-examples-distroless-custom-jre-buildpack
+    ports:
+      - "8084:8080"

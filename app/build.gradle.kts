@@ -20,6 +20,15 @@ dependencies {
     testImplementation(libs.spring.boot.starter.test)
 }
 
+tasks.bootBuildImage {
+    runImage = "gcr.io/distroless/java-base-debian13:nonroot"
+    imageName = "distroless-jvm-examples-distroless-custom-jre-buildpack"
+    environment = mapOf(
+        "BP_JVM_JLINK_ENABLED" to "true",
+        "BP_JVM_JLINK_ARGS" to "--add-modules java.base,java.compiler,java.desktop,java.instrument,java.naming,java.net.http,java.prefs,java.scripting,java.security.jgss,java.sql,jdk.jfr,jdk.management,jdk.unsupported",
+    )
+}
+
 tasks.test {
     useJUnitPlatform()
 
