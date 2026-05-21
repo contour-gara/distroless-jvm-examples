@@ -1,0 +1,8 @@
+# syntax=docker/dockerfile:1
+
+FROM gcr.io/distroless/java25-debian13:nonroot
+WORKDIR /deployments
+ARG JAR_FILE=build/libs/app.jar
+COPY --chown=nonroot:nonroot ${JAR_FILE} app.jar
+
+CMD ["app.jar"]

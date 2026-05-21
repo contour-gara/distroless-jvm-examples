@@ -1,0 +1,21 @@
+services:
+  corretto:
+    build:
+      context: ./app
+      dockerfile: Dockerfile_corretto
+    ports:
+      - "8081:8080"
+
+  distroless:
+    build:
+      context: ./app
+      dockerfile: Dockerfile_distroless
+    ports:
+      - "8082:8080"
+
+  distroless-custom-jre:
+    build:
+      context: ./app
+      dockerfile: Dockerfile_distroless_custom_jre
+    ports:
+      - "8083:8080"
