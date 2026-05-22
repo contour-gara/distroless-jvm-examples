@@ -55,3 +55,12 @@ docker push 451348341937.dkr.ecr.ap-northeast-1.amazonaws.com/distroless-jvm-sam
 docker push 451348341937.dkr.ecr.ap-northeast-1.amazonaws.com/distroless-jvm-samples-app:distroless-custom-jre
 docker push 451348341937.dkr.ecr.ap-northeast-1.amazonaws.com/distroless-jvm-samples-app:distroless-custom-jre-buildpack
 """
+
+[tasks.update-service]
+description = "Update ECS service."
+run = """
+aws ecs update-express-gateway-service --service-arn arn:aws:ecs:ap-northeast-1:451348341937:service/distroless-jvm-samples/corretto
+aws ecs update-express-gateway-service --service-arn arn:aws:ecs:ap-northeast-1:451348341937:service/distroless-jvm-samples/distroless
+aws ecs update-express-gateway-service --service-arn arn:aws:ecs:ap-northeast-1:451348341937:service/distroless-jvm-samples/distroless-custom-jre
+aws ecs update-express-gateway-service --service-arn arn:aws:ecs:ap-northeast-1:451348341937:service/distroless-jvm-samples/distroless-custom-jre-buildpack
+"""
