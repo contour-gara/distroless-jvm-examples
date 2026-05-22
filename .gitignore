@@ -12,3 +12,9 @@ build
 *.iws
 *.iml
 *.ipr
+
+# terraform
+.terraform/
+
+# mise
+mise.local.toml
