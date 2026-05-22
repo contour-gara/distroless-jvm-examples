@@ -15,7 +15,6 @@ dependencies {
     implementation(libs.spring.boot.starter.web)
     implementation(libs.spring.boot.starter.actuator)
     testImplementation(libs.kotest.runner.junit5)
-    testImplementation(libs.kotest.assertions.core)
     testImplementation(libs.kotest.extensions.spring)
     testImplementation(libs.spring.boot.starter.test)
     testImplementation(libs.spring.boot.starter.webmvc.test)
