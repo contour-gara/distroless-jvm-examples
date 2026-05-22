@@ -32,13 +32,15 @@ jdeps \
   ${TMP_DIR}/org ${TMP_DIR}/BOOT-INF/classes ${TMP_DIR}/BOOT-INF/lib/*.jar
 """
 
-[tasks.ecr-login]
+[tasks.login-ecr]
+description = "Retrieve an authentication token and authenticate your Docker client to your registry."
 run = """
 aws ecr get-login-password --region ap-northeast-1 | docker login --username AWS --password-stdin 451348341937.dkr.ecr.ap-northeast-1.amazonaws.com
 """
 
-[tasks.push-image]
-depends = ["ecr-login"]
+[tasks.push-ecr]
+description = "Build Docker images and push images to ECR"
+depends = ["login-ecr"]
 run = """
 gradle clean bootBuildImage
 docker compose build
