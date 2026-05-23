@@ -74,3 +74,11 @@ RANDOM_STR=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 12 | head -n 1)
 sed -i "s/Hello World!/${RANDOM_STR}/" app/src/main/kotlin/org/contourgara/Controller.kt
 echo "Changed to: ${RANDOM_STR}"
 """
+
+[tasks.update-service-for-timekeeping]
+description = "Measure the time it takes to deploy."
+run = """
+mise run randomize-greeting
+mise run push-ecr
+mise run update-service
+"""
