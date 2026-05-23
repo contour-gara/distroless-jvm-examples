@@ -64,3 +64,13 @@ aws ecs update-express-gateway-service --service-arn arn:aws:ecs:ap-northeast-1:
 aws ecs update-express-gateway-service --service-arn arn:aws:ecs:ap-northeast-1:451348341937:service/distroless-jvm-samples/distroless-custom-jre
 aws ecs update-express-gateway-service --service-arn arn:aws:ecs:ap-northeast-1:451348341937:service/distroless-jvm-samples/distroless-custom-jre-buildpack
 """
+
+[tasks.randomize-greeting]
+description = "Change 'Hello World!' to a random string in Controller.kt"
+run = """
+git restore app/src/main/kotlin/org/contourgara/Controller.kt
+
+RANDOM_STR=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 12 | head -n 1)
+sed -i "s/Hello World!/${RANDOM_STR}/" app/src/main/kotlin/org/contourgara/Controller.kt
+echo "Changed to: ${RANDOM_STR}"
+"""
