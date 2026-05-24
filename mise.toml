@@ -32,19 +32,23 @@ jdeps \
   ${TMP_DIR}/org ${TMP_DIR}/BOOT-INF/classes ${TMP_DIR}/BOOT-INF/lib/*.jar
 """
 
+[tasks.build-image]
+description = "Build Docker images"
+run = """
+gradle clean bootBuildImage
+docker compose build
+"""
+
 [tasks.login-ecr]
 description = "Retrieve an authentication token and authenticate your Docker client to your registry."
 run = """
 aws ecr get-login-password --region ap-northeast-1 | docker login --username AWS --password-stdin 451348341937.dkr.ecr.ap-northeast-1.amazonaws.com
 """
 
-[tasks.push-ecr]
-description = "Build Docker images and push images to ECR"
-depends = ["login-ecr"]
+[tasks.push-image]
+description = "Push images to ECR"
+depends = ["build-image", "login-ecr"]
 run = """
-gradle clean bootBuildImage
-docker compose build
-
 docker tag distroless-jvm-examples-corretto:latest 451348341937.dkr.ecr.ap-northeast-1.amazonaws.com/distroless-jvm-samples-app:corretto
 docker tag distroless-jvm-examples-distroless:latest 451348341937.dkr.ecr.ap-northeast-1.amazonaws.com/distroless-jvm-samples-app:distroless
 docker tag distroless-jvm-examples-distroless-custom-jre:latest 451348341937.dkr.ecr.ap-northeast-1.amazonaws.com/distroless-jvm-samples-app:distroless-custom-jre
@@ -77,8 +81,9 @@ echo "Changed to: ${RANDOM_STR}"
 
 [tasks.update-service-for-timekeeping]
 description = "Measure the time it takes to deploy."
-run = """
-mise run randomize-greeting
-mise run push-ecr
-mise run update-service
-"""
+depends = ["push-image"]
+depends_post = ["update-service"]
+
+[tasks.change-code-and-update-service-for-timekeeping]
+depends = ["randomize-greeting"]
+depends_post = ["update-service-for-timekeeping"]
