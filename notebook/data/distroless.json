@@ -1,0 +1,614 @@
+[
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/n7VKvoPbIt7S1Z1xcdmfg",
+    "startedAt": "2026-05-25T23:15:32.178000+09:00",
+    "finishedAt": "2026-05-25T23:24:50.777000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/fkIfVPo3l7tyUpFeqpdtE",
+    "startedAt": "2026-05-25T23:00:28.810000+09:00",
+    "finishedAt": "2026-05-25T23:09:39.281000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/KIJqSKss2DlcPBHTAHl63",
+    "startedAt": "2026-05-25T22:45:36.131000+09:00",
+    "finishedAt": "2026-05-25T22:54:29.193000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/N1FZv-M8uc148Klx17HM-",
+    "startedAt": "2026-05-25T22:30:28.610000+09:00",
+    "finishedAt": "2026-05-25T22:39:51.961000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/9cGzA2Q946AP6ASy6N9ux",
+    "startedAt": "2026-05-25T22:15:28.923000+09:00",
+    "finishedAt": "2026-05-25T22:24:23.789000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/UE5z2_QzgNgZ5XcPCKE9u",
+    "startedAt": "2026-05-25T22:00:35.798000+09:00",
+    "finishedAt": "2026-05-25T22:09:34.812000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/gZAlcTHmmh6kBlXWldAhi",
+    "startedAt": "2026-05-25T21:45:32.417000+09:00",
+    "finishedAt": "2026-05-25T21:54:13.334000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/oqkjDhkOQooYRuZPm4mdf",
+    "startedAt": "2026-05-25T21:30:27.731000+09:00",
+    "finishedAt": "2026-05-25T21:39:08.499000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Y2HRgr_G1wySlnpY8dDw1",
+    "startedAt": "2026-05-25T21:15:35.454000+09:00",
+    "finishedAt": "2026-05-25T21:24:19.704000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/daxydHVGRMdP2MzAniGu7",
+    "startedAt": "2026-05-25T21:00:34.940000+09:00",
+    "finishedAt": "2026-05-25T21:09:28.754000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Ea54MwFHJ9Emogr5aGPoU",
+    "startedAt": "2026-05-25T20:45:28.791000+09:00",
+    "finishedAt": "2026-05-25T20:54:15.853000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Akv8P8lrNDdeP6nGC6LfJ",
+    "startedAt": "2026-05-25T20:30:35.483000+09:00",
+    "finishedAt": "2026-05-25T20:39:12.594000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/8_PQMPoV9gIHZBfy5PhO1",
+    "startedAt": "2026-05-25T20:15:31.898000+09:00",
+    "finishedAt": "2026-05-25T20:24:06.931000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/kcdSVlaUH-xNtGbTOOth6",
+    "startedAt": "2026-05-25T20:00:28.178000+09:00",
+    "finishedAt": "2026-05-25T20:10:00.433000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/_hLSaRCfPKYb3fV-JDW2I",
+    "startedAt": "2026-05-25T19:45:34.654000+09:00",
+    "finishedAt": "2026-05-25T19:54:30.940000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/0AkcagKuRI53NP2SV3D0v",
+    "startedAt": "2026-05-25T19:30:31.386000+09:00",
+    "finishedAt": "2026-05-25T19:39:32.819000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/n2ictIhix7QkLG7WTQbX9",
+    "startedAt": "2026-05-25T19:15:28.123000+09:00",
+    "finishedAt": "2026-05-25T19:23:57.942000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/QRNJYh2bWwnynhZBPbICg",
+    "startedAt": "2026-05-25T19:00:34.956000+09:00",
+    "finishedAt": "2026-05-25T19:09:56.950000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/PrpMOSgOshQINO5tPbCqZ",
+    "startedAt": "2026-05-25T18:45:29.340000+09:00",
+    "finishedAt": "2026-05-25T18:54:39.860000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/WjhglurM1xpk2B0sVV9fl",
+    "startedAt": "2026-05-25T18:30:27.751000+09:00",
+    "finishedAt": "2026-05-25T18:39:23.354000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/XjqjHHvEFSciRSXyz8RFK",
+    "startedAt": "2026-05-25T18:15:35.873000+09:00",
+    "finishedAt": "2026-05-25T18:24:29.584000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/rlUlkjiWjJrtW1mzoivan",
+    "startedAt": "2026-05-25T18:00:34.150000+09:00",
+    "finishedAt": "2026-05-25T18:09:32.081000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/4OcmIChDJIh3U7tEkkR7a",
+    "startedAt": "2026-05-25T17:45:32.049000+09:00",
+    "finishedAt": "2026-05-25T17:55:19.552000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/ycWVCaDoXr9_Cw_9lzMwP",
+    "startedAt": "2026-05-25T17:30:30.292000+09:00",
+    "finishedAt": "2026-05-25T17:40:05.146000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/HOS4KHwx1-LHNf8NMDMhO",
+    "startedAt": "2026-05-25T17:15:28.541000+09:00",
+    "finishedAt": "2026-05-25T17:25:23.453000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/83jOQr6kzWHmuQ8B23hDS",
+    "startedAt": "2026-05-25T17:00:36.435000+09:00",
+    "finishedAt": "2026-05-25T17:09:37.901000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/m2q2keO22QnmiLMOgtS38",
+    "startedAt": "2026-05-25T16:45:34.171000+09:00",
+    "finishedAt": "2026-05-25T16:54:24.455000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/2SSxSCRfbHWoL-1EN5eVW",
+    "startedAt": "2026-05-25T16:30:32.204000+09:00",
+    "finishedAt": "2026-05-25T16:39:41.490000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/go0v1pzGrjaOzYrbCDtyd",
+    "startedAt": "2026-05-25T16:15:30.368000+09:00",
+    "finishedAt": "2026-05-25T16:23:56.799000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/hAoA6kf-svi_ZqcBdOzhF",
+    "startedAt": "2026-05-25T16:00:41.098000+09:00",
+    "finishedAt": "2026-05-25T16:09:41.074000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/JTY_REJU9LU3POC4VnLXw",
+    "startedAt": "2026-05-25T15:45:33.255000+09:00",
+    "finishedAt": "2026-05-25T15:54:30.500000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/3tSgQqYafJy61OKhowqd1",
+    "startedAt": "2026-05-25T15:30:34.795000+09:00",
+    "finishedAt": "2026-05-25T15:39:24.742000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/w6P8u7lA2uyCWRamBR1MG",
+    "startedAt": "2026-05-25T15:15:33.057000+09:00",
+    "finishedAt": "2026-05-25T15:24:27.494000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/59n7rGNhX4EzGUXPn7aZI",
+    "startedAt": "2026-05-25T15:00:30.975000+09:00",
+    "finishedAt": "2026-05-25T15:09:27.229000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/cE08bDmWV2H6JoAjSBgKP",
+    "startedAt": "2026-05-25T14:45:29.471000+09:00",
+    "finishedAt": "2026-05-25T14:54:41.321000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/jP3Ru5K4I55Rzy3VX-ZF-",
+    "startedAt": "2026-05-25T14:30:27.791000+09:00",
+    "finishedAt": "2026-05-25T14:39:57.805000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/gG8zvM6vHEFwBQF2tHHTB",
+    "startedAt": "2026-05-25T14:15:26.095000+09:00",
+    "finishedAt": "2026-05-25T14:23:55.114000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/mKQu9L-lfZxQ1vQHk31eT",
+    "startedAt": "2026-05-25T14:00:34.270000+09:00",
+    "finishedAt": "2026-05-25T14:10:06.448000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/k6bA21i8FqgRFrZz07PNz",
+    "startedAt": "2026-05-25T13:45:31.568000+09:00",
+    "finishedAt": "2026-05-25T13:53:46.004000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/qzZ4XEq1-z1vZJG3z8YBr",
+    "startedAt": "2026-05-25T13:30:30.981000+09:00",
+    "finishedAt": "2026-05-25T13:39:16.435000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/vIsDpOemogsVZ52t-c8oT",
+    "startedAt": "2026-05-25T13:15:28.848000+09:00",
+    "finishedAt": "2026-05-25T13:24:29.089000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/7R0T4Ho9p1aNve18Lc5GQ",
+    "startedAt": "2026-05-25T13:00:37.334000+09:00",
+    "finishedAt": "2026-05-25T13:10:16.668000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/oS5_GT-H49RQwrR_cWacS",
+    "startedAt": "2026-05-25T12:45:34.949000+09:00",
+    "finishedAt": "2026-05-25T12:54:18.770000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/SSbHR3ZgoEDjf0XenktUO",
+    "startedAt": "2026-05-25T12:30:33.767000+09:00",
+    "finishedAt": "2026-05-25T12:40:22.967000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/mwUFameyrypCAcF8VAnYK",
+    "startedAt": "2026-05-25T12:15:28.675000+09:00",
+    "finishedAt": "2026-05-25T12:24:19.319000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/rbDR0RxDLOuVKpkbE3jKm",
+    "startedAt": "2026-05-25T12:00:40.561000+09:00",
+    "finishedAt": "2026-05-25T12:10:06.877000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/__Xv6Pb6kGH2DtlqOVNyf",
+    "startedAt": "2026-05-25T11:45:28.589000+09:00",
+    "finishedAt": "2026-05-25T11:54:10.227000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/zUCLWPOED0NMW1sdCjlF0",
+    "startedAt": "2026-05-25T11:30:26.849000+09:00",
+    "finishedAt": "2026-05-25T11:39:18.565000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/uvPpxgpsY5s1x-nTNlDG0",
+    "startedAt": "2026-05-25T11:15:33.155000+09:00",
+    "finishedAt": "2026-05-25T11:24:25.192000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/KbmevaLen3htP4ih8DL9E",
+    "startedAt": "2026-05-25T11:00:33.399000+09:00",
+    "finishedAt": "2026-05-25T11:10:04.665000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/daTothrtK5FRcKUzZdKk4",
+    "startedAt": "2026-05-25T10:45:31.222000+09:00",
+    "finishedAt": "2026-05-25T10:54:51.912000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/hyre7TiJC9sIUaKRUu3El",
+    "startedAt": "2026-05-25T10:30:29.371000+09:00",
+    "finishedAt": "2026-05-25T10:39:34.877000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/wCMyozwVZqwIQQrT3shbO",
+    "startedAt": "2026-05-25T10:15:27.743000+09:00",
+    "finishedAt": "2026-05-25T10:24:37.867000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/oIAsXnwZzuLJ_6HQbIL-E",
+    "startedAt": "2026-05-25T10:00:35.933000+09:00",
+    "finishedAt": "2026-05-25T10:09:37.459000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/I6u5Lxj722kM0zJfbdeLm",
+    "startedAt": "2026-05-25T09:45:27.447000+09:00",
+    "finishedAt": "2026-05-25T09:54:36.914000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/uKsyUbi0ICq5uyC7H06L6",
+    "startedAt": "2026-05-25T09:30:31.956000+09:00",
+    "finishedAt": "2026-05-25T09:40:11.899000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/4zKTZp0lF71rtKU2jpIl6",
+    "startedAt": "2026-05-25T09:15:30.227000+09:00",
+    "finishedAt": "2026-05-25T09:25:08.276000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/i03VRu6mHBjyvQUB_p6WA",
+    "startedAt": "2026-05-25T09:00:48.603000+09:00",
+    "finishedAt": "2026-05-25T09:09:43.725000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/68f6WcRf44SDjhZl_Ib1b",
+    "startedAt": "2026-05-25T08:45:36.608000+09:00",
+    "finishedAt": "2026-05-25T08:55:00.646000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/WjL3o5qcZJYF8djkvJXeS",
+    "startedAt": "2026-05-25T08:30:34.968000+09:00",
+    "finishedAt": "2026-05-25T08:39:40.340000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/P_xsTzBDK0gDhhGgH5MKh",
+    "startedAt": "2026-05-25T08:15:33.526000+09:00",
+    "finishedAt": "2026-05-25T08:25:01.277000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/I5WQ71rU6Rr3yj2NAH3Jj",
+    "startedAt": "2026-05-25T08:00:31.948000+09:00",
+    "finishedAt": "2026-05-25T08:09:31.696000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/8Izo38TCaBJx4s_7Wk2HF",
+    "startedAt": "2026-05-25T07:45:30.631000+09:00",
+    "finishedAt": "2026-05-25T07:54:14.325000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/AG4ilXFMKa7RHj35FlkBE",
+    "startedAt": "2026-05-25T07:30:28.765000+09:00",
+    "finishedAt": "2026-05-25T07:39:32.648000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/SZ8Ok3s8AtSGKS2xcZ1rI",
+    "startedAt": "2026-05-25T07:15:27.336000+09:00",
+    "finishedAt": "2026-05-25T07:23:48.532000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Tj7pe43xRBEKor_ep1BTd",
+    "startedAt": "2026-05-25T07:00:35.906000+09:00",
+    "finishedAt": "2026-05-25T07:09:10.037000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Um6hh7OD2qkUEaLx9N1V-",
+    "startedAt": "2026-05-25T06:45:34.386000+09:00",
+    "finishedAt": "2026-05-25T06:48:37.114000+09:00",
+    "status": "ROLLBACK_SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/jCCQKPy6qcoT-mY1cBbfC",
+    "startedAt": "2026-05-25T06:30:32.836000+09:00",
+    "finishedAt": "2026-05-25T06:39:44.707000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/KFcqmjCEJFzPm38MFTFh7",
+    "startedAt": "2026-05-25T06:15:31.130000+09:00",
+    "finishedAt": "2026-05-25T06:24:13.177000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/gSsjMfsvjp4yGP1ncXHtt",
+    "startedAt": "2026-05-25T06:00:29.348000+09:00",
+    "finishedAt": "2026-05-25T06:09:48.166000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/o1y1a-YE-mWf38BxJ8XR0",
+    "startedAt": "2026-05-25T05:45:27.873000+09:00",
+    "finishedAt": "2026-05-25T05:54:14.911000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/T04c_ARcf9qg40Jn2a8RE",
+    "startedAt": "2026-05-25T05:30:26.694000+09:00",
+    "finishedAt": "2026-05-25T05:39:11.724000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/L8EywdfnKzdpiLS-OQVmK",
+    "startedAt": "2026-05-25T05:15:34.623000+09:00",
+    "finishedAt": "2026-05-25T05:24:40.677000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/By35rrpIdz5MS8lYQFI-s",
+    "startedAt": "2026-05-25T05:00:33.119000+09:00",
+    "finishedAt": "2026-05-25T05:09:25.194000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/8qgpVvyrerXiVTuqXC_9Z",
+    "startedAt": "2026-05-25T04:45:31.692000+09:00",
+    "finishedAt": "2026-05-25T04:54:41.218000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Q7X-YYCVOdYSDdyMXe0mV",
+    "startedAt": "2026-05-25T04:30:30.341000+09:00",
+    "finishedAt": "2026-05-25T04:39:29.927000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/hC3jzBQGO6eaP0XL3mYRD",
+    "startedAt": "2026-05-25T04:15:28.715000+09:00",
+    "finishedAt": "2026-05-25T04:24:07.800000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/oZ_W7UIGB9TU-KLsMdq_V",
+    "startedAt": "2026-05-25T04:00:37.350000+09:00",
+    "finishedAt": "2026-05-25T04:10:02.625000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/cMMNjETf9YjdOnsOVxDuz",
+    "startedAt": "2026-05-25T03:45:33.837000+09:00",
+    "finishedAt": "2026-05-25T03:54:58.539000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/DyuzSeCQnRcXzj-CVFF6I",
+    "startedAt": "2026-05-25T03:30:33.807000+09:00",
+    "finishedAt": "2026-05-25T03:39:33.178000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/VQnydhe60Qo03LzuI05NG",
+    "startedAt": "2026-05-25T03:15:32.232000+09:00",
+    "finishedAt": "2026-05-25T03:24:27.076000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/RUp5N1dBXpIz_gNJkx259",
+    "startedAt": "2026-05-25T03:00:30.680000+09:00",
+    "finishedAt": "2026-05-25T03:09:36.255000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/ZoU2DcDxKjhczXKG5aN01",
+    "startedAt": "2026-05-25T02:45:29.231000+09:00",
+    "finishedAt": "2026-05-25T02:55:12.365000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/BEtBw2PI_5jZgc_uTbeE4",
+    "startedAt": "2026-05-25T02:30:37.904000+09:00",
+    "finishedAt": "2026-05-25T02:39:50.282000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/_k4qSY_-hSldN1JrMQ41W",
+    "startedAt": "2026-05-25T02:15:31.879000+09:00",
+    "finishedAt": "2026-05-25T02:24:32.389000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/5szYrCZ7qZFCv6-X-Qc1F",
+    "startedAt": "2026-05-25T02:00:33.077000+09:00",
+    "finishedAt": "2026-05-25T02:09:46.280000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/KyAcRh6GutxKmN71PmsGS",
+    "startedAt": "2026-05-25T01:45:33.098000+09:00",
+    "finishedAt": "2026-05-25T01:54:28.508000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Pe8oVt9zb5lawYTptePrA",
+    "startedAt": "2026-05-25T01:30:31.482000+09:00",
+    "finishedAt": "2026-05-25T01:39:37.547000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/ie2fXdOc8ZztDdAT0CBcc",
+    "startedAt": "2026-05-25T01:15:29.886000+09:00",
+    "finishedAt": "2026-05-25T01:25:14.496000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/z9PDIVT3gmG2pLWP_N_OV",
+    "startedAt": "2026-05-25T01:00:28.251000+09:00",
+    "finishedAt": "2026-05-25T01:10:03.665000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/5j7iyzddmdnF-sIhvmsS2",
+    "startedAt": "2026-05-25T00:45:33.015000+09:00",
+    "finishedAt": "2026-05-25T00:54:52.866000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/ZUTZPCTGsD8Y8a2giqCVU",
+    "startedAt": "2026-05-25T00:30:35.544000+09:00",
+    "finishedAt": "2026-05-25T00:39:15.392000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/c6-o62Vg_aSUpJA5sfACq",
+    "startedAt": "2026-05-25T00:15:33.561000+09:00",
+    "finishedAt": "2026-05-25T00:24:40.309000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Qc-_rJp0snGdm0B_ACBoW",
+    "startedAt": "2026-05-25T00:00:31.912000+09:00",
+    "finishedAt": "2026-05-25T00:09:36.433000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/qJsQ2C_-RrrChqMxb0XY1",
+    "startedAt": "2026-05-24T23:45:30.367000+09:00",
+    "finishedAt": "2026-05-24T23:54:11.695000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/VFUvn2BmZPlUY-wawgV13",
+    "startedAt": "2026-05-24T23:30:28.560000+09:00",
+    "finishedAt": "2026-05-24T23:39:22.218000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/ESgCUSPb4-2VIOrj8_0hj",
+    "startedAt": "2026-05-24T23:15:26.684000+09:00",
+    "finishedAt": "2026-05-24T23:24:31.828000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/BRNj2gSxbERlD1PFVY_xx",
+    "startedAt": "2026-05-24T23:00:35.219000+09:00",
+    "finishedAt": "2026-05-24T23:09:58.653000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/qHzVMqmxVtflh8lA-0daE",
+    "startedAt": "2026-05-24T22:45:33.555000+09:00",
+    "finishedAt": "2026-05-24T22:54:24.638000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/4JP_eWLngzNoulMBn3GJO",
+    "startedAt": "2026-05-24T22:30:32.476000+09:00",
+    "finishedAt": "2026-05-24T22:39:13.183000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/SXyFqzNJlHeVme_fWATLZ",
+    "startedAt": "2026-05-24T22:15:31.111000+09:00",
+    "finishedAt": "2026-05-24T22:24:35.414000+09:00",
+    "status": "SUCCESSFUL"
+  },
+  {
+    "serviceDeploymentArn": "arn:aws:ecs:ap-northeast-1:451348341937:service-deployment/distroless-jvm-samples/distroless/Ga-HKTnkvGLscVTm28dYv",
+    "startedAt": "2026-05-24T22:00:39.650000+09:00",
+    "finishedAt": "2026-05-24T22:10:10.430000+09:00",
+    "status": "SUCCESSFUL"
+  }
+]
