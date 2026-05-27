@@ -24,3 +24,15 @@ services:
     image: distroless-jvm-examples-distroless-custom-jre-buildpack
     ports:
       - "8084:8080"
+
+  notebook:
+    profiles: ["notebook"]
+    image: jupyter/datascience-notebook:latest
+    command:
+      - "start-notebook.sh"
+      - "--NotebookApp.token=''"
+      - "--NotebookApp.disable_check_xsrf=True"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebook:/home/jovyan

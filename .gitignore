@@ -16,5 +16,16 @@ build
 # terraform
 .terraform/
 
+# jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+notebook/.cache/
+notebook/.local/
+notebook/.jupyter/
+notebook/.npm/
+profile_default/
+ipython_config.py
+.virtual_documents/
+
 # mise
 mise.local.toml
