@@ -48,11 +48,20 @@ environment.BP_JVM_JLINK_ARG
 
 ### サイズ
 
+圧縮後サイズ
+
+| Image                           |      Size |
+|:--------------------------------|----------:|
+| corretto                        | 265.43 MB |
+| distroless                      |  94.62 MB |
+| distroless-custom-jre           |  72.79 MB |
+| distroless-custom-jre-buildpack |  87.92 MB |
+
 ### コンテナ実行環境での起動時間
 
 #### コンテナ起動時間とイメージサイズの関係
 
-pull 時間 + アプリ起動次男 = コンテナ起動時間
+pull 時間 + アプリ起動時間 = コンテナ起動時間
 
 #### 実験手法
 
