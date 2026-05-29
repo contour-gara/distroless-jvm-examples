@@ -142,6 +142,7 @@
 - ECR + ECS Express
 - デプロイ方式: [カナリアデプロイ](https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/express-service-update-full.html)
   - ベイク時間: 合計 6 分
+- ルートエンドポイントの返す文字列をランダムに変更し 102 回再起動
 
 #### 実験結果
 
