@@ -149,29 +149,34 @@
 - Buildpacks の結果から、サイズだけが起動時間に影響している訳ではない
   - Dockerfile で作ったイメージと構造が違うが今回は割愛
 
-## Java アプリを Distroless で動かす際の注意点
+## Java アプリを Distroless で動かす際にやってほしいこと
 
 ### ローカルから docker で起動しておく
 
 - ローカルでもクラウドでも同じものを実行する
   - The Twelve Factor App
-- compose.yaml を書いておく
-- アプリ起動に必要な環境変数もまとめられる
-- build jar -> compose up or compose up --build
+- [compose.yaml](../compose.yaml) を書いておく
+  - アプリ起動に必要な環境変数もまとめられる
+- 起動方法
+  1. Jar ファイルのビルド: gradle build
+  2. コンテナ実行: docker compose up --build
 
 ### コンテナレベルのブラックボックステスト
 
 - アプリの異常だけでなくコンテナの異常を検知できる
 - docker compose プラグインでテスト実行前の compose up と実行後の compose down を自動化
-  - [build.gradle.kts](../integration-test/build.gradle.kts)
+- [gradle-docker-compose-plugin](https://github.com/avast/gradle-docker-compose-plugin)
+- [build.gradle.kts](../integration-test/build.gradle.kts)
 
 ### リモートデバッグ
 
 - ローカルでコンテナを実行してもデバッグが可能
-- custom JRE を使用している場合は、jdk.jdwp.agent を追加
-- compose.yaml で 5005 ポートの解放と JAVA_TOOL_OPTIONS の環境変数を設定
+- JRE に jdk.jdwp.agent を追加
+- [compose.yaml](../compose.yaml)
+  - 5005 ポートの解放
+  - 環境変数 JAVA_TOOL_OPTIONS
 
-### ローカルのヘルスチェックが難しい
+### docker compose のヘルスチェックが難しい
 
 - Dockerfile や compose.yaml のヘルスチェックはコンテナ内でコマンドを実行する
 - curl がないためヘルスチェックができない
@@ -180,7 +185,7 @@
 
 ## まとめ
 
-- イメージサイズの軽量化はこれらの時間短縮に寄与する
+- イメージサイズの軽量化は、これらの時間短縮につながる
   - ローカル環境での初回 pull
   - コンテナレジストリへの初回 push
   - コンテナ実行環境での起動時間
