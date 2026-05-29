@@ -70,10 +70,15 @@ ECR + ECS Express
 
 #### 実験結果
 
+![箱ひげ図](../notebook/box.png)
+
+- corretto を使ったイメージが遅かった
+- buildpacks を利用して作ったイメージが早かった
+
 #### 考察
 
-Dockerfile 形式同士の比較から、サイズは起動時間に寄与する
-buildpacks の結果から、サイズだけが起動時間に寄与する訳ではない
+- Dockerfile 形式同士の比較から、サイズは起動時間に寄与する
+- buildpacks の結果から、サイズだけが起動時間に寄与する訳ではない
 
 ## distroless を使用する場合にやってほしいこと
 
