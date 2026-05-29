@@ -19,7 +19,7 @@ class ControllerTest(val mockMvc: MockMvc,) : FunSpec({
         mockMvc(mockMvc)
     }
 
-    test("test") {
+    test("ルートに GET した場合、文字列で 'Hello World!' が返る") {
         // execute & assert
         Given {
             body("")
