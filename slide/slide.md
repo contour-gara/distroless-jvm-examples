@@ -18,7 +18,12 @@
 ### なぜコンテナアプリケーション
 
 - [The Twelve Factor App](https://12factor.net/ja/)
+  - アプリを環境から切り離す
+  - アプリを入れ替え可能に
 - ローカルでもクラウドでも同じものが動く
+  - 環境構築が楽
+  - アプリのデプロイが楽
+  - フィードバックが早い
 
 ### JVM のイメージは重い
 
@@ -33,13 +38,15 @@
 - JVM の理念と被ってる
   - Write Once, Run Anywhere
   - 抽象化レイヤーが二重にかかってる
-  - ランタイムが別である
+    - どちらもアプリをどこでも動かすためのもの
+      - WORA: JVM をプラットフォームとして各 OS 向けに用意する
+      - コンテナ: アプリとその周辺環境ごと持ち運ぶ
 
 ### 軽量イメージを使って問題解決
 
-- [debian-slim](https://hub.docker.com/_/debian/tags?name=slim)
-- [Alpine Linux](https://www.alpinelinux.org/)
-- [Distroless](https://github.com/GoogleContainerTools/distroless)
+- [debian-slim](https://hub.docker.com/layers/library/debian/stable-slim/images/sha256-c5e8243f32eac6fc0d07740034ab701d40c03e6b99d4fbb3d384ef2bf4819538): 28.4 MB
+- [Alpine Linux](https://hub.docker.com/layers/library/alpine/latest/images/sha256-4d889c14e7d5a73929ab00be2ef8ff22437e7cbc545931e52554a7b00e123d8b): 3.69 MB
+- [Distroless](https://github.com/GoogleContainerTools/distroless): 10.99 MB
   - Google 管理
   - シェルがないため攻撃に強い
   - Java で Distroless を使っている話をあまり聞かないので、今回のテーマに
@@ -189,5 +196,5 @@
   - ローカル環境での初回 pull
   - コンテナレジストリへの初回 push
   - コンテナ実行環境での起動時間
-- 起動時間の短縮は、サイズだけではなくコンテナ構造も影響する
+- コンテナ起動時間の短縮は、サイズだけではなくコンテナ構造も影響する
 - コンテナイメージを工夫する場合、常にコンテナでアプリを起動するようにする
