@@ -70,11 +70,15 @@ buildpacks の結果から、サイズだけが起動時間に寄与する訳で
 
 ### ローカルから docker で起動しておく
 
+ローカルとクラウドの実行環境を揃える
 compose.yaml を書いておく
 アプリ起動に必要な環境変数もまとめられる -> 12 factor app
 build jar -> compose up or compose up --build
 
 ### コンテナレベルのブラックボックステスト
+
+アプリの異常だけでなくコンテナの異常を検知できる
+docker compose プラグインでテスト実行前の compose up と実行後の compose down を自動化
 
 ### リモートデバッグ可能
 
