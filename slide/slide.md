@@ -161,7 +161,7 @@
 
 ## コンテナイメージのサイズと起動速度の比較
 
-### サイズ
+### サイズの比較
 
 圧縮後サイズ
 
@@ -172,7 +172,7 @@
 | distroless-custom-jre           |  72.79 MB |
 | distroless-custom-jre-buildpack |  87.92 MB |
 
-### コンテナ実行環境での起動時間
+### コンテナ実行環境での起動時間の比較
 
 #### コンテナ起動時間とイメージサイズの関係
 
@@ -181,7 +181,8 @@
 #### 実験手法
 
 - ECR + ECS Express
-- デプロイ方式: カナリアデプロイ
+- デプロイ方式: [カナリアデプロイ](https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/express-service-update-full.html)
+  - ベイク時間: 合計 6 分
 
 #### 実験結果
 
@@ -192,25 +193,28 @@
 
 #### 考察
 
-- Dockerfile 形式同士の比較から、サイズは起動時間に寄与する
-- buildpacks の結果から、サイズだけが起動時間に寄与する訳ではない
+- Dockerfile 形式同士の比較から、軽量なほど起動時間が早い
+- Buildpacks の結果から、サイズだけが起動時間に影響している訳ではない
 
 ## Java アプリを Distroless で動かす際の注意点
 
 ### ローカルから docker で起動しておく
 
--ローカルとクラウドの実行環境を揃える
+- ローカルでもクラウドでも同じものを実行する
+  - The Twelve Factor App
 - compose.yaml を書いておく
-- アプリ起動に必要な環境変数もまとめられる -> 12 factor app
+- アプリ起動に必要な環境変数もまとめられる
 - build jar -> compose up or compose up --build
 
 ### コンテナレベルのブラックボックステスト
 
 - アプリの異常だけでなくコンテナの異常を検知できる
 - docker compose プラグインでテスト実行前の compose up と実行後の compose down を自動化
+  - [build.gradle.kts](../integration-test/build.gradle.kts)
 
-### リモートデバッグ可能
+### リモートデバッグ
 
+- ローカルでコンテナを実行してもデバッグが可能
 - custom JRE を使用している場合は、jdk.jdwp.agent を追加
 - compose.yaml で 5005 ポートの解放と JAVA_TOOL_OPTIONS の環境変数を設定
 
