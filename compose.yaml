@@ -19,6 +19,9 @@ services:
       dockerfile: Dockerfile_distroless_custom_jre
     ports:
       - "8083:8080"
+      - "5005:5005"
+    environment:
+      JAVA_TOOL_OPTIONS: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
 
   distroless-custom-jre-buildpack:
     image: distroless-jvm-examples-distroless-custom-jre-buildpack

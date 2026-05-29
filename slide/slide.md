@@ -74,6 +74,9 @@ buildpacks の結果から、サイズだけが起動時間に寄与する訳で
 
 #### リモートデバッグ可能
 
+custom JRE を使用している場合は、jdk.jdwp.agent を追加
+compose.yaml で 5005 ポートの解放と JAVA_TOOL_OPTIONS の環境変数を設定
+
 #### compose のヘルスチェックは curl がないため効かない
 
 ## まとめ
