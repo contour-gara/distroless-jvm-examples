@@ -77,7 +77,11 @@ buildpacks の結果から、サイズだけが起動時間に寄与する訳で
 custom JRE を使用している場合は、jdk.jdwp.agent を追加
 compose.yaml で 5005 ポートの解放と JAVA_TOOL_OPTIONS の環境変数を設定
 
-### compose のヘルスチェックは curl がないため効かない
+### ローカルのヘルスチェックが難しい
+
+Dockerfile や compose.yaml のヘルスチェックはコンテナ内でコマンドを実行する
+curl がないためヘルスチェックができない
+クラウドの場合は問題ないことが多いので気にしていない
 
 ## まとめ
 
