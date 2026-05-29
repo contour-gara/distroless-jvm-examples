@@ -3,6 +3,7 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent
 
 plugins {
     alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.docker.compose)
 }
 
 repositories {
@@ -12,6 +13,10 @@ repositories {
 dependencies {
     testImplementation(libs.kotest.runner.junit5)
     testImplementation(libs.rest.assured.kotlin.extensions)
+}
+
+dockerCompose {
+    useComposeFiles = listOf("../compose.yaml")
 }
 
 tasks.test {
@@ -31,4 +36,16 @@ tasks.test {
         showCauses = true
         showStackTraces = true
     }
+
+    mustRunAfter("composeUp")
+}
+
+tasks.composeDown {
+    mustRunAfter("test")
+}
+
+tasks.register("integrationTest") {
+    dependsOn("composeUp")
+    dependsOn("test")
+    dependsOn("composeDown")
 }

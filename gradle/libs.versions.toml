@@ -1,5 +1,7 @@
 [versions]
 kotlin = "2.3.21"
+docker-compose = "0.17.21"
+
 spring-boot = "4.0.6"
 kotest = "6.1.11"
 rest-assured = "6.0.0"
@@ -18,3 +20,4 @@ rest-assured-spring-mock-mvc-kotlin-extensions = { module = "io.rest-assured:spr
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
+docker-compose = { id = "com.avast.gradle.docker-compose", version.ref = "docker-compose" }
