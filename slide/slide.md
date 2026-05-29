@@ -1,10 +1,17 @@
-# jvm x distroless
+# Java × distroless で軽量なコンテナイメージを
 
 ## プロポーザルの変更点
 
 - Java のバージョンが 21 -> 25
 
-## 導入
+## アジェンダ
+
+1. Distroless を使うモチベーション
+2. Java アプリを Distroless で動かす
+3. コンテナイメージのサイズと起動速度の比較
+4. Java アプリを Distroless で動かす際の注意点
+
+## Distroless を使うモチベーション
 
 ### Docker はローカルでもクラウドでも環境をそろえられる
 
@@ -20,7 +27,13 @@
 
 - distroless を使おう
 
-## distroless の Java での使い方
+## Java アプリを Distroless で動かす
+
+### サンプルアプリについて
+
+- [リポジトリ](https://github.com/contour-gara/distroless-jvm-examples)
+- Kotlin, Java25, Spring Boot 4.0.6
+- ルートエンドポイントに GET すると "Hello World!" が返る
 
 ### corretto
 
@@ -44,7 +57,7 @@
 - environment.BP_JVM_JLINK_ENABLE
 - environment.BP_JVM_JLINK_ARG
 
-## 比較
+## コンテナイメージのサイズと起動速度の比較
 
 ### サイズ
 
@@ -80,7 +93,7 @@
 - Dockerfile 形式同士の比較から、サイズは起動時間に寄与する
 - buildpacks の結果から、サイズだけが起動時間に寄与する訳ではない
 
-## distroless を使用する場合にやってほしいこと
+## Java アプリを Distroless で動かす際の注意点
 
 ### ローカルから docker で起動しておく
 
@@ -112,4 +125,4 @@
   - コンテナレジストリへの初回 push
   - コンテナ実行環境での起動時間
 - 起動時間の短縮は、サイズだけではなくコンテナ構造も寄与する
-- コンテナイメージを工夫する場合、常に distroless を使ってアプリを起動できるようにしておく
+- コンテナイメージを工夫する場合、常にコンテナでアプリを起動するようにする
