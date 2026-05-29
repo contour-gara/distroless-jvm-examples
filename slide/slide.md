@@ -13,19 +13,29 @@
 
 ## Distroless を使うモチベーション
 
-### Docker はローカルでもクラウドでも環境をそろえられる
+### なぜコンテナアプリケーション
 
-- 12 factors app
+- [The Twelve Factor App](https://12factor.net/ja/)
+- ローカルでもクラウドでも同じものが動く
 
 ### JVM のイメージは重い
 
-- 環境構築時の pull 時間
-- 新規開発時の push 時間
+- docker イメージのサイズ
+  - [amazoncorretto](https://hub.docker.com/layers/library/amazoncorretto/latest/images/sha256-4b1c7dcbc66e17910ed111d9731760921c55e90e432dff7a7ae7f44a2da32ee3): 132.64 MB
+  - [eclipse-temurin](https://hub.docker.com/layers/library/eclipse-temurin/latest/images/sha256-98c06ec4ce7915e354d6845276c6901bd5ab075d5fcac0224fdb31b8314329b1): 143.42 MB
+  - 参考:
+    - [debian](https://hub.docker.com/layers/library/debian/latest/images/sha256-2477d9ee0ead4370c778ce3aa42258a0b07684d1a84ded8f4af518383fbc3f2d): 47.03 MB
+- 100 MB 超えのイメージにファット jar が乗る
+- 環境構築時の pull 時間が長い
+- 新規開発時の push 時間が長い
 - JVM の理念と被ってる
+  - Write Once, Run Anywhere
 
-### 計量イメージを使って問題解決
+### 軽量イメージを使って問題解決
 
-- distroless を使おう
+- [debian-slim](https://hub.docker.com/_/debian/tags?name=slim)
+- [Alpine Linux](https://www.alpinelinux.org/)
+- [Distroless](https://github.com/GoogleContainerTools/distroless)
 
 ## Java アプリを Distroless で動かす
 
