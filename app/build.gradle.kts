@@ -18,8 +18,6 @@ dependencies {
     testImplementation(libs.kotest.extensions.spring)
     testImplementation(libs.spring.boot.starter.test)
     testImplementation(libs.spring.boot.starter.webmvc.test)
-    testImplementation(libs.rest.assured)
-    testImplementation(libs.rest.assured.spring.mock.mvc)
     testImplementation(libs.rest.assured.spring.mock.mvc.kotlin.extensions)
 }
 
